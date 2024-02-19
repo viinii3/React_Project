@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(230, 192, 235);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+
+/*ALTURA*/
+.altura{
+    padding: 20px;
+}
+
+.altura h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.altura input{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    width: 50vh;
+    text-align: center;
+}
+
+/*PESO*/
+.peso{
+    padding: 20px;
+}
+
+.peso h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.peso input{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    width: 50vh;
+    text-align: center;
+}
+
+/*BOTÃO*/
+.button{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ed90f0;
+    height: 30px;
+    width: 25vh;
+    text-align: center;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.resultado{
+    text-transform: uppercase;
+}
+
+.resultado span{
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: #ed90f0;
+    text-decoration: underline #c063c4;
+}
+
+.resultado .name1{
+    margin: 5px;
+}
